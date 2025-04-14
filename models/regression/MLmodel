@@ -1,0 +1,16 @@
+flavors:
+  python_function:
+    cloudpickle_version: 3.1.1
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.9.13
+    streamable: false
+mlflow_version: 2.21.2
+model_size_bytes: 303072
+model_uuid: 84e04d4412204b99b4849d62587b7a29
+prompts: null
+utc_time_created: '2025-04-07 15:47:14.450435'
