@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  regression-model:
+    container_name: regression-container
+    image: regression-model
+    ports:
+      - "5001:5001"
+    restart: unless-stopped
