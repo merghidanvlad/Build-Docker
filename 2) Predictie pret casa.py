@@ -11,6 +11,7 @@ url = "https://raw.githubusercontent.com/selva86/datasets/master/BostonHousing.c
 df = pd.read_csv(url)
 print(df.shape)
 
+
 # Definim variabilele independente (X) și variabila dependentă (y)
 X = df.drop("medv", axis=1)
 y = df["medv"]
